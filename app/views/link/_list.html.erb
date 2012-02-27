@@ -1,0 +1,7 @@
+<ul class="pretty">
+<% Link.all(:order => 'name ASC').each do |link| %>	
+	<li>						
+		<%= link_to link.name, link.address, { :target => '_blank'} %>
+	</li>			
+<% end %>
+</ul>

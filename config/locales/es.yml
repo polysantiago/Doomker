@@ -1,0 +1,26 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+es:
+  slogan: ¡Diseñar, construir, conquistar!
+  who: Quiénes somos
+  who_text_html: <span class="doomker">Doomkër</span> es una empresa jóven que nació para dejar atrás el trabajo manual y la baja productividad. 
+            En <span class="doomker">Doomkër</span> creemos que las personas deberían ocuparse sólo de aquello que el <i>software</i> no puede, 
+            de aquello que les ocupa el tiempo con tareas repetitivas
+            que podrían ser automatizadas. En <span class="doomker">Doomkër</span> creemos en la innovación y el rendimiento pero por sobretodo 
+            en trabajar duro para que las personas puedan dedicarse a lo que realmente saben hacer&#58; producir.
+  what: Qué hicimos
+  webs: Sitios Web
+  web_systems: Sistemas Web
+  desktop_systems: Sistemas de Escritorio
+  
+  partners:
+    title: Socios Estratégicos
+    text_html: ¡Nos complace tener como socios a <a href="http://mapixstudio.com.ar/">Mapix Studio</a>!
+    
+  contact:
+    title: Contacto
+    text_html: Estos son los medios para contactarnos&#58;
+    email: Correo Electrónico
+    phone: Teléfono
+  
