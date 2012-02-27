@@ -3,3 +3,21 @@
 
 en:
   slogan: Design, build, conquer!
+  who: Who Are We
+  who_text_html: <span class="doomker">Doomkër</span> is a young company that was born to leave behind manual tasks and low productivity. 
+            At <span class="doomker">Doomkër</span> we believe that people should only care about what <i>software</i> cannot&#58; repetitive tasks that can be automatized.
+            At <span class="doomker">Doomkër</span> we believe in innovation and performance but above all, in working hard so that people can do what they do best&#58; to produce  
+  what: What We Did
+  webs: Web Sites
+  web_systems: Web Systems
+  desktop_systems: Desktop Systems
+  
+  partners:
+    title: Strategic Partners
+    text_html: We're proud to have <a href="http://mapixstudio.com.ar/">Mapix Studio</a> as our partners!
+  
+  contact:
+    title: Contact
+    text_html: You can get in touch with us by&#58;
+    email: Email
+    phone: Phone
