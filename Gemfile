@@ -22,6 +22,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'compass'
 
 group :developement do
   gem 'rspec-rails'
