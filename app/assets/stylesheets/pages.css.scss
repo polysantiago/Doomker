@@ -7,6 +7,7 @@
 @import "blueprint";
 @import "compass/layout/sticky-footer";
 @import "compass/typography/lists/bullets";
+@import "compass/typography/links/hover-link";
 
 // Fonts
 @import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
@@ -16,13 +17,17 @@
 @include sticky-footer(72px);
 
 ul.pretty {
-  @include pretty-bullets('/images/bullet2b.gif', 10px, 10px);
+  @include pretty-bullets('/images/gray_bullet.png', 6px, 10px);
+  a {
+    @include hover-link;
+  }
 }
 
 
 #footer   { background: #cccccc; }
 
-h3        {font-family: 'Homemade Apple', cursive;}
+h3, h4    {font-family: 'Homemade Apple', cursive;}
 .doomker  {font-family: 'Gloria Hallelujah', cursive; }
+.slogan   {font-family: 'Marck Script', cursive; font-size: 24px;}
+
 h2.doomker {font-size: 32px; }
-.slogan   {font-family: 'Marck Script', cursive; font-size: 16px;}
