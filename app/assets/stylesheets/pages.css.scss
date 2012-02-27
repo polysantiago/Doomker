@@ -2,9 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-$blueprint_grid_columns: 2;
-$blueprint_grid_width: 450px;
-
 // Project Styles
 //-----------------------------------------
 @import "blueprint";
@@ -29,14 +26,3 @@ h3        {font-family: 'Homemade Apple', cursive;}
 .doomker  {font-family: 'Gloria Hallelujah', cursive; }
 h2.doomker {font-size: 32px; }
 .slogan   {font-family: 'Marck Script', cursive; font-size: 16px;}
-
-
-.container {
-  @include container;
-  .eight {
-    @include column(1);
-  }
-  .four {
-    @include column(1, true);
-  }  
-}
