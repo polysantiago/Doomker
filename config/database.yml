@@ -15,7 +15,7 @@ development:
   database: DoomkerDev
   pool: 5
   username: root
-  password:
+  password: policapo
   socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -26,16 +26,6 @@ test:
   encoding: utf8
   reconnect: false
   database: DoomkerTest
-  pool: 5
-  username: root
-  password:
-  socket: /var/run/mysqld/mysqld.sock
-
-production:
-  adapter: mysql2
-  encoding: utf8
-  reconnect: false
-  database: DoomkeProd
   pool: 5
   username: root
   password:

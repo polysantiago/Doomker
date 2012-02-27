@@ -19,13 +19,14 @@ group :assets do
   gem 'therubyracer'
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'compass-rails'
 end
 
 gem 'jquery-rails'
-gem 'compass'
 
 group :developement do
   gem 'rspec-rails'
+  gem 'mysql2'
 end
 
 group :test do
