@@ -6,7 +6,8 @@ gem 'rails', '3.2.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
-
+gem 'mysql2'
+gem 'jquery-rails'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -25,15 +26,9 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'  
 end
 
-gem 'jquery-rails'
-
-group :developement do
+group :test, :developement do
   gem 'rspec-rails'
-  gem 'mysql2'
-end
-
-group :test do
-  gem 'rspec'
+  gem 'webrat'
 end
 
 # To use ActiveModel has_secure_password
