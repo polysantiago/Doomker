@@ -11,6 +11,7 @@ gem 'pg'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
+  gem 'compass'
   gem 'compass-rails'
   gem 'ZURB-foundation', :git => 'git://github.com/zurb/foundation-sass.git'
   
